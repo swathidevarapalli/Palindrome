@@ -1,9 +1,9 @@
-// function that check str is palindrome or not
+// function that checks str is palindrome or not
 function check_palindrome(str) {
     let j = str.length - 1;
     for (let i = 0; i < j / 2; i++) {
-        let x = str[i];//forward character(ex:a(forward))
-        let y = str[j - i];//backward character(ex:a(back))
+        let x = str[i];//forward character
+        let y = str[j - i];//backward character
         if (x != y) {
 
             // return false if string not match
@@ -15,6 +15,7 @@ function check_palindrome(str) {
     return true;
 
 }
+
 //function that print output is string is palindrome
 function is_palindrome(str) {
 
