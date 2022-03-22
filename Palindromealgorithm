@@ -1,0 +1,25 @@
+ Ground Work for Palindrome:
+ -----------------------------------
+
+ Algorithm to check whether a string is a palindrome or not
+------------------------------------------------------------
+
+*  Input the string.
+*  Find the reverse of the string.
+*  If the reverse of the string is equal to the input string, then return true. Else, return false
+
+-------------------------------------Palindrome number algorithm----------------------------------
+
+1. Get the number from user.
+2. Hold the number in temporary variable.
+3. Reverse the number.
+4. Compare the temporary number with reversed number.
+5. If both numbers are same, print palindrome number.
+6. Else print not palindrome number.
+----------------------------------------------------------------------------------------------------
+
+-------> A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+
+-------> Note. You'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything lower case in order to check for palindromes.
+
+-------> We'll pass strings with varying formats, such as “racecar”, “RaceCar”, and “race CAR” among others.
