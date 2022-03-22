@@ -15,7 +15,7 @@ const isPalindrome2 = n => {
     i = i - 2;
     let j = 0;
 
-    //array.reduce() is a useful method that reduces an array to a value. array.reduce(callback, initialValue) accepts 2 arguments
+    //array.reduce() is a useful method that reduces an array to a value. array.reduce(callback, initialValue) accepts 2 arguments.
     return n === arr.reduce((res, x) => {
       const add = (x/ (10 ** j)) * (10 ** i);
       res += add;
