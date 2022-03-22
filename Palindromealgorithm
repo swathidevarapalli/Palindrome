@@ -1,7 +1,13 @@
  Ground Work for Palindrome:
  -----------------------------------
+ -------> A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
 
- Algorithm to check whether a string is a palindrome or not
+-------> Note. You'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything lower case in order to check for palindromes.
+
+-------> We'll pass strings with varying formats, such as “racecar”, “RaceCar”, and “race CAR” among others.
+
+
+ Algorithm to check whether the given string is a palindrome or not
 ------------------------------------------------------------
 
 *  Input the string.
@@ -18,8 +24,3 @@
 6. Else print not palindrome number.
 ----------------------------------------------------------------------------------------------------
 
--------> A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
-
--------> Note. You'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything lower case in order to check for palindromes.
-
--------> We'll pass strings with varying formats, such as “racecar”, “RaceCar”, and “race CAR” among others.
